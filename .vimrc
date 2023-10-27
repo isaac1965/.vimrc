@@ -50,7 +50,6 @@ let g:airline_section_error=''
 "Change when i am mode insert the cursor a beam
 let &t_SI = "\033]12;#ff0000\e[6 q"
 let &t_EI = "\033]12;#ff00ff\e[2 q"
-autocmd VimEnter *  let &t_EI = "\033]12;#ff00ff\e[2 q"
 "Section z vim-airline
 let g:airline_section_z = '%3p%% %2s%=👾 %l ⚡%c 🔥 %L'
 "Customization indentline plugin
