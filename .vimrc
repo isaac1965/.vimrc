@@ -5,12 +5,12 @@
 "██      ██    ██    ██   ████   ██ ██      ██ ██   ██  ██████ 
 
 syntax on
-set t_Co=256
+set mouse=a
+set clipboard=unnamedplus
+"set t_Co=256
 set termguicolors
 set encoding=utf-8
 set cursorline
-set clipboard=unnamedplus
-set mouse=a
 set number
 set relativenumber
 set noshowmode
@@ -51,7 +51,8 @@ let g:airline_section_error=''
 let &t_SI = "\033]12;#ff0000\e[6 q"
 let &t_EI = "\033]12;#ff00ff\e[2 q"
 "Section z vim-airline
-let g:airline_section_z = '%3p%% %2s%=👾 %l ⚡%c 🔥 %L'
+"let g:airline_section_z = '%3p%% %2s%=🍑 %l 󰍜 %c 🍓 %L'
+let g:airline_section_z = '%3p%%%2s%= %l:%c %L'
 "Customization indentline plugin
 let g:indentLine_char =  '▏' 
 let g:indentLine_color_term = 2
@@ -67,3 +68,4 @@ highlight VertSplit ctermfg=10
 highlight LineNR ctermfg=red ctermbg=132661 
 "change background of vim
 highlight Normal ctermbg=111216 ctermfg=white
+highlight Cursor ctermfg=White ctermbg=Red
